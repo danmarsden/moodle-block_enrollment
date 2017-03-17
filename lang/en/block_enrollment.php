@@ -4,11 +4,11 @@ $string['pluginname'] = 'Quick Enrol';
 $string['enrollment'] = 'Quick Enrol';
 $string['notallowed'] = 'Access Denied';
 $string['submit'] = 'Submit';
-$string['description'] = 'You can quickly enrol a user in multiple courses. Choose a user, choose their role in the courses they will enrolled in, and choose 1 or more courses for them to be enrolled in. The start date defaults to today. You can set an end date for them to be automatically un-enrolled on, or leave it blank so they will never be un-enrolled.';
+$string['description'] = 'You can enrol a user in multiple courses. Choose a user, choose their role, and choose 1 or more courses for them to be enrolled in. The start date defaults to today. You can set an end date for them to be automatically un-enrolled on, or leave it blank so they will never be un-enrolled.';
 
-$string['users'] = 'Choose a USER';
-$string['roles'] = 'Choose a ROLE';
-$string['courses'] = 'Choose COURSE';
+$string['users'] = 'Select user';
+$string['roles'] = 'Assign role';
+$string['courses'] = 'Choose course';
 $string['selectmultiple']= 'hold down CTRL to select multiple courses';
 
 $string['enrolusers'] = 'Enrol user in courses';
@@ -22,8 +22,8 @@ $string['student'] = 'Student';
 
 $string['enrollment:addinstance'] = 'Add an instance of Quick Enrol';
 
-$string['startdate'] = 'Enrolment Start Date';
-$string['enddate'] = 'Enrolment End Date';
+$string['startdate'] = 'Enrolment start date';
+$string['enddate'] = 'Enrolment end date';
 $string['enddateleaveblank'] = 'leave blank for no end date';
-$string['dateerror'] = 'The Enrolment End Date needs to be greater than the Enrolment Start Date';
+$string['dateerror'] = 'The end date needs to be greater than the start date';
 $string['nomanenrol'] = 'Can not instantiate enrol_manual. Manual enrolment appears to be disabled.';
