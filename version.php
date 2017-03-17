@@ -2,7 +2,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014021900;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2013051400; 
-$plugin->release = '2.0(Build: 2014021900)';
-$plugin->component = 'block_enrollment'; // Full name of the plugin (used for diagnostics)
+$plugin->release = '2.0.1';
+
+$plugin->version   = 2015050100;
+$plugin->requires  = 2014111000; //What is minimum version of Moodle required: 2014111000=v2.8
+$plugin->component = 'block_enrollment';
