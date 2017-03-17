@@ -1,3 +1,10 @@
+NOTE:
+This repository is a copy of the code from the Moodle plugins db, with code from Jeff Sherk's "quickenrol" fork merged in and a couple of other minor changes.
+I have not reviewed this plugin completely and do not endorse it personally. I put this in github here to help with a proof of concept site and am not using this code in production.
+(Dan Marsden March 2017)
+
+
+------------
 These instructions describe how to install the Enrollment block for Moodle 2+.  This module is developped and supported by Symetrix.
 
 With this plugin you can quickly enroll users to many courses.
