@@ -9,3 +9,5 @@ $string['enrollusers'] = 'Enroll users';
 $string['manager'] = 'Manager';
 $string['teacher'] = 'Teacher';
 $string['student'] = 'Student';
+$string['student'] = 'Student';
+$string['enrollment:addinstance'] = 'Add an instance of Quick enrollment';

@@ -2,7 +2,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012100300;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2010112400; 
-$plugin->release = '1.0(Build: 2012100300)';
+$plugin->version   = 2014021900;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires  = 2013051400; 
+$plugin->release = '2.0(Build: 2014021900)';
 $plugin->component = 'block_enrollment'; // Full name of the plugin (used for diagnostics)
