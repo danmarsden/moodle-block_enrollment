@@ -35,14 +35,12 @@ function enrollment_display_courses_options($userid) {
 }
 
 ////// USERS //////
-function enrollment_get_users_list() {
-    global $DB;
-    $select = "id != 1 AND deleted = 0 AND suspended = 0 AND confirmed = 1 ORDER BY lastname"; //id=1=Administrator //only show confirmed users that are not suspended and not deleted
-    return $DB->get_records_select('user', $select);
-}
 
 function enrollment_display_users_options($currentselecteduser) {
-    $users = enrollment_get_users_list();
+    global $DB;
+    $select = "id != 1 AND deleted = 0 AND suspended = 0 AND confirmed = 1 ORDER BY lastname"; //id=1=Administrator //only show confirmed users that are not suspended and not deleted
+    $users = $DB->get_recordset_select("user", $select);
+
     $options = '';
     foreach ($users as $user) {
         $selectedoption = '';
@@ -51,6 +49,7 @@ function enrollment_display_users_options($currentselecteduser) {
         }
         $options .= '<option value="' . $user->id . '" ' . $selectedoption . '>' . $user->lastname . ' ' . $user->firstname . '</option>';
     }
+    $users->close();
     return $options;
 }
 
