@@ -21,6 +21,7 @@ $string['teacher'] = 'Teacher';
 $string['student'] = 'Student';
 
 $string['enrollment:addinstance'] = 'Add an instance of Quick Enrol';
+$string['enrollment:myaddinstance'] = 'Add an instance of Quick enrol to my dashboard.';
 
 $string['startdate'] = 'Enrolment start date';
 $string['enddate'] = 'Enrolment end date';
